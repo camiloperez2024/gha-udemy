@@ -1,0 +1,11 @@
+name: 01b Ejercicio Hola Mundo
+on: 
+  push:
+    branches:
+      - main
+jobs:
+  hola-Camilo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Hola Camilo
+      run: echo "¡Hola, Camilo!"
